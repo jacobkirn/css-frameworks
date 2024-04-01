@@ -1,1 +1,84 @@
-/* Add screen styles below */
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing:
+		border-box;
+}
+
+body {
+	font-family: Arimo, sans-serif;
+}
+
+h3 {
+	font-size: 24px;
+}
+
+nav {
+	background: #ffffff;
+}
+
+.hero-banner {
+	position: relative;
+	padding: 8em 0;
+	background: #1a1a1a;
+	z-index: 1;
+}
+
+.hero-banner::before {
+	content: '';
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	background-image: url(images/banner-img.jpg);
+	background-position: bottom;
+	background-repeat: no-repeat;
+	background-size: cover;
+	opacity: 0.5;
+	z-index: -1;
+}
+
+.hero-copy {
+	color: #ffffff;
+	position: relative;
+	z-index: 2;
+}
+
+.collections {
+	padding: 4em 0;
+	color: #1a1a1a;
+}
+
+.sustainability {
+	background-color: #1a1a1a;
+	color: #ffffff;
+	padding: 4em 0;
+}
+
+.sustainability img {
+	width: 90%;
+	border-radius: 4px;
+}
+
+.join-cta {
+	padding: 4em 0;
+}
+
+.join-cta .row {
+	background-color: #eeeeee;
+	color: #1a1a1a;
+	border-radius: 4px;
+	padding: 4em;
+}
+
+#copy {
+	padding-right: 4em;
+}
+
+footer {
+	background: #1a1a1a;
+	padding: 2em 0;
+	text-align: center;
+	color: #FFFFFF;
+}
