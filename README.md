@@ -1,2 +1,2 @@
-# boilerplate
-Basic HTML and CSS setup for simple web design
+# 10.5 Lab Assignment
+"Design a single-page site for The North Face" ... Okay!
